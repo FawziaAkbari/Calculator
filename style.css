@@ -1,0 +1,65 @@
+* {
+    font-family: 'Bebas Neue';
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f7c4ee;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculate {
+    background-color: #e9dce5;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 65px);                  
+}
+
+input {
+    background-color: #ffffff;
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    box-shadow:  -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    font-size: 40px;
+    text-align: end;
+    margin: 40px auto 30px;
+    padding: 20px;
+}
+
+button {
+    background-color: #e9dce5;
+    height: 48px;
+    width: 48px;
+    box-shadow: -5px -5px 12px #ffffff,
+                        5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border: none;
+    border-radius: 30%;
+    margin: 8px;
+    font-size: 16px;
+}
+
+.equal {
+    background-color: #e9dce5;
+    box-shadow:  -5px -5px 12px #ffffff,
+                       5px 5px 12 rgba(0, 0, 0, .16);
+    width: 115px;
+    border-radius: 40px;
+}
+
+
+
